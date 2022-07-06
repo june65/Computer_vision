@@ -1,4 +1,3 @@
-
 import matplotlib.pyplot as plt
 import cv2
 
@@ -10,4 +9,3 @@ plt.figure(figsize=(10, 10))
 img = plt.imread('beatles02_cv.png')
 plt.imshow(img)
 plt.show()
-s
