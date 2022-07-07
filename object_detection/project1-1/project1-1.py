@@ -1,3 +1,5 @@
+#Open CV 사진 불러오기 
+
 import matplotlib.pyplot as plt
 import cv2
 
