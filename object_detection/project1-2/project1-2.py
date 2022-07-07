@@ -1,3 +1,5 @@
+#Open CV 비디오 분석
+
 import cv2
 import time
 
@@ -11,7 +13,7 @@ vid_size = (round(cap.get(cv2.CAP_PROP_FRAME_WIDTH)),round(cap.get(cv2.CAP_PROP_
 vid_fps = cap.get(cv2.CAP_PROP_FPS )
     
 vid_writer = cv2.VideoWriter(video_output_path, codec, vid_fps, vid_size) 
-s
+
 green_color=(0, 255, 0)
 red_color=(0, 0, 255)
 
